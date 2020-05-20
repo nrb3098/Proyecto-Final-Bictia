@@ -1,0 +1,31 @@
+.container-register{
+    background-image: url("../images/rostro_register.jpg");
+    min-width: 100%;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-register{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.text-register2{
+    color: #fff;
+    font-size: 1rem;
+}
+
+form .btn-bg{
+    background-color: #cf9b58;
+    border: 1px solid #cf9b58;
+}
+
+form .btn-bg:hover{
+    background-color: #865311;
+    border: 1px solid #865311;
+}
+
