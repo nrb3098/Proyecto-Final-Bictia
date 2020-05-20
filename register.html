@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Register</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/escultura.css">
+  <link rel="stylesheet" href="css/register.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
@@ -58,6 +58,73 @@
       </div>
     </nav>
   </header>
+
+  <main class="py-3 container-register">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-4">
+        <div class="container" id="register" name="register">
+          <form action="./index.html">
+            <div class="form-group">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email" required placeholder="Email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="inputPassword" placeholder="Password" required
+                minlength="8">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" id="inputName" required placeholder="Nombre">
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" id="inputLastName" required placeholder="Apellido">
+              </div>
+            </div>
+
+            <div class="form-group ">
+              <input type="text" id="inputCity" class="form-control" required placeholder="Ciudad de residencia">
+            </div>
+            <div class="form-group ">
+              <input type="number" class="form-control" id="inputTel" required minlength="7" maxlength="10"
+                placeholder="Telefono" min="0">
+            </div>
+            <div class="form-group text-center">
+              <label for="inputDate" class="text-register">Fecha de nacimiento</label>
+              <input type="date" class="form-control" id="inputDate" required>
+            </div>
+
+            <div class="mb-2 text-center ">
+              <p class="text-register mb-0">Genero</p>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="genero" id="male" value="male" checked>
+                <label class="form-check-label text-register2" for="male">Masculino</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="genero" id="female" value="female">
+                <label class="form-check-label text-register2" for="female">Femenino</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="genero" id="other" value="other">
+                <label class="form-check-label text-register2" for="other">Otro</label>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                <label class="form-check-label text-register" for="gridCheck">
+                  Acepta terminos y condiciones.
+                </label>
+              </div>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary w-100 btn-bg">Registrarte</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
 
 
   <footer class="pt-4 bg-nav">
