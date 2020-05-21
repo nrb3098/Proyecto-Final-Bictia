@@ -1,0 +1,12 @@
+.img-slide{
+    height: 300px;
+}
+
+@font-face{
+    font-family: Kaushan Script;
+    src: url("../fonts/KaushanScript-Regular.ttf");
+}
+
+.font-slide{
+    font-family: Kaushan Script;
+}
