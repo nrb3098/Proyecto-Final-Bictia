@@ -1,0 +1,7 @@
+.cardtext {
+    transition: background-color .5s;
+}
+
+.card-text:hover {
+    color:cyan
+}
