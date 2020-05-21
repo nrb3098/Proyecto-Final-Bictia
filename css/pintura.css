@@ -1,14 +1,5 @@
 /* Carousel */ 
-.carousel{
-    width:1700px;
-}
-.item img{
-    object-fit:cover;
-    height:300px !important;
-    width:350px;
-}
-
+ 
 .container {
     background-color: rgb(1, 109, 67);
 }
-
