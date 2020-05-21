@@ -1,32 +1,28 @@
-body{
+body {
     margin: 0;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-img{
-    max-width: 100%;
-    min-width: 100%;
-}
 
 .bg-nav{
     background-color: #91A6FF;
 }
 
-@font-face{
+@font-face {
     font-family: Dancing Script;
     src: url("../fonts/DancingScript-VariableFont_wght.ttf");
 }
 
-nav .font-nav{
+nav .font-nav {
     font-family: Dancing Script;
     transform: rotate(-10deg);
     font-size: 25px;
 }
 
-.font-footer{
+.font-footer {
     font-family: Dancing Script;
     font-size: 1.5rem;
 }
@@ -45,7 +41,7 @@ footer{
     color: #fff;
 }
 
-li a{
+li a {
     color: #fff;
 }
 
@@ -53,6 +49,6 @@ li a:hover{
     color: rgb(153, 79, 102);
 }
 
-.fab{
+.fab {
     font-size: 2rem;
 }
