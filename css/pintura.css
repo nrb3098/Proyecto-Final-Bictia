@@ -3,7 +3,8 @@
 }
 
 .galleyimages:hover {
-    color:cyan
+    color:cyan;
+    font-size: medium;
 }
 
 .img-contenedor img {
