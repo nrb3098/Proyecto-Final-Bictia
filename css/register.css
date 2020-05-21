@@ -20,12 +20,12 @@
 }
 
 form .btn-bg{
-    background-color: #cf9b58;
-    border: 1px solid #cf9b58;
+    background-color: rgb(221, 148, 161);
+    border: 1px solid rgb(221, 148, 161);
 }
 
 form .btn-bg:hover{
-    background-color: #865311;
-    border: 1px solid #865311;
+    background-color: rgb(153, 79, 102);
+    border: 1px solid rgb(153, 79, 102);
 }
 
