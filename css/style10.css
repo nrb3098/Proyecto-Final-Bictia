@@ -4,6 +4,7 @@ body {
 
 * {
     box-sizing: border-box;
+
 }
 
 
@@ -130,40 +131,71 @@ li a:hover {
     box-shadow: 0px 0px 5px;
 }
 
-.contenedor1 {
-    width: 1000%;
-    position: relative;
-    height: 780px;
+img {
+    width: 700px;
+    height: 500px;
 }
 
-.botones {
-    font-size: 30px;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.7);
-    text-align: center;
-    font-weight: bold;
-    position: absolute;
-    color: #fff;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+#contenedor1 {
+    width: 700px;
+    margin: 30px auto;
+    overflow: hidden;
 }
 
-.botones:hover {
-    cursor: pointer;
-    transform: scale(1.2, 1.2);
+#contenedor1 ul {
+    list-style: none;
+    width: 4900px;
+    display: flex;
+
+    animation: slide 20s infinite alternate;
 }
 
-.atras {
-    left: 2%;
-    top: calc(50% - 70%);
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-.adelante {
-    right: 2%;
-    top: calc(50% - 70%);
+@keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+
+    20% {
+        margin-left: 0px;
+    }
+
+    22% {
+        margin-left: -700px;
+    }
+
+    40% {
+        margin-left: -700px;
+    }
+
+
+    42% {
+        margin-left: -1400px;
+    }
+
+    60% {
+        margin-left: -1400px;
+    }
+
+    62% {
+        margin-left: -2100px;
+    }
+
+    80% {
+        margin-left: -2100px;
+    }
+
+
+    82% {
+        margin-left: -2800px;
+    }
+
+    100% {
+        margin-left: -2800px;
+    }
+
 }
