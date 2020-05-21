@@ -10,3 +10,15 @@
 .font-slide{
     font-family: Kaushan Script;
 }
+
+div .card-border{
+    border: 1px solid violet;
+}
+
+div .card-border1{
+    border-top: 1px solid violet;
+}
+
+div .color-title{
+    color: rgb(170, 37, 170);
+}
