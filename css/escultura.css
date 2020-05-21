@@ -10,3 +10,25 @@
 .font-slide{
     font-family: Kaushan Script;
 }
+
+div .card-border{
+    border: 1px solid violet;
+}
+
+div .card-border1{
+    border-top: 1px solid violet;
+}
+
+div .color-title{
+    color: rgb(170, 37, 170);
+}
+
+div .btn-bg{
+    background-color: #cf9b58;
+    border: 1px solid #cf9b58;
+}
+
+div .btn-bg:hover{
+    background-color: #865311;
+    border: 1px solid #865311;
+}
