@@ -1,7 +1,7 @@
-.cardtext {
+.galleyimages {
     transition: background-color .5s;
 }
 
-.card-text:hover {
+.galleyimages:hover {
     color:cyan
 }
